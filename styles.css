@@ -26,8 +26,10 @@ h1#site-title {
 }
 
 h1#article-title{
-  front-size: 48px;
+  front-size: 70px;
   font-weight: 900;
+  margin-bottom: 22px;
+  margin-top: 48px;
 }
 
 h2 {
