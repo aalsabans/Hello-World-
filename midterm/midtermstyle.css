@@ -7,7 +7,7 @@ h1 {
   letter-spacing: -3px;
   margin-top: 0;
   margin-bottom: .125em;
-  color:#f7ab17;
+  color:black;
   text-align: center;
 }
 
@@ -52,7 +52,7 @@ nav ul li{
 }
 
 nav ul li a {
-  color: black;
+  color: #f7a50f;
   text-decoration: none;
   padding: 12px;
   display: block;
