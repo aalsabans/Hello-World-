@@ -1,20 +1,46 @@
-body{
-  font-family:verdana;
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  margin: 0;
 }
 
-h1 {
+.container {
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.small-container {
+  margin: 0 auto;
+  width: 92%;
+  max-width: 768px;
+}
+
+h1#site-title {
   font-size: 72px;
   letter-spacing: -3px;
   margin-top: 0;
   margin-bottom: .125em;
-  color:black;
   text-align: center;
+  font-weight: 800;
+}
+
+h1#article-title{
+  front-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+  margin-top: 48px;
+}
+
+h2 {
+  font-weight: 800;
+  margin-bottom: 0;
+  margin-top: 48px;
 }
 
 p {
   line-height: 1.25;
   margin-bottom: 1.25em;
-  background: #f7ab17;
 }
 
 figure{
@@ -22,13 +48,26 @@ margin: 0;
 border: 1px solid black;
 padding: 12px;
 padding-bottom: 24px;
-
 }
 
 figure img {
   max-width: 100%;
   height:auto;
   margin-bottom: 12px;
+}
+
+figure.main-image {
+ background: #f7ab17;
+ border-color: #f7820f;
+ color: #ffffff;
+ margin-bottom: 32px;
+}
+
+figure.section-image{
+  float: right;
+  margin-left: 20px;
+  max-width: 600px;
+  margin-bottom: 32px;
 }
 
 p img{
