@@ -59,7 +59,7 @@ figure img {
 figure.main-image {
  background: #f7ab17;
  border-color: #f7820f;
- color: #ffffff;
+ color: black;
  margin-bottom: 32px;
 }
 
@@ -68,6 +68,8 @@ figure.section-image{
   margin-left: 20px;
   max-width: 600px;
   margin-bottom: 32px;
+  background: #f7ab17;
+  border-color: #f7820f;
 }
 
 p img{
@@ -114,7 +116,7 @@ footer nav {
 }
 
 footer nav ul li a {
-  color: #ffffff;
+  color: black;
 }
 
 footer nav ul li a:hover {
