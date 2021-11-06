@@ -4,6 +4,11 @@ body {
   margin: 0;
 }
 
+body.dark-mode{
+  background: #010101;
+  color: #ffffff;
+}
+
 .container {
   width: 96%;
   max-width: 1020px;
