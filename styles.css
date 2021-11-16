@@ -15,6 +15,26 @@ body.dark-mode{
   margin: 0 auto;
 }
 
+#message{
+  background:PaleVioletRed;
+  border: 1px solid MediumVioletRed;
+  padding: 20px 40px;
+  margin: 12px 0;
+  border-radius: 4px;
+  text-align: center;
+  opacity: 1;
+  transition: opacity.2s ease;
+}
+
+#message.dismissed{
+  opacity: 0;
+  height: 0;
+}
+
+#message button{
+  float: right;
+}
+
 .small-container {
   margin: 0 auto;
   width: 92%;
@@ -48,11 +68,6 @@ p{
   margin-bottom: 1.25em;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 figure {
   margin: 0;
   border:1px solid black;
@@ -61,6 +76,8 @@ figure {
 }
 
 figure img {
+  max-width: 100%;
+  height: auto;
   margin-bottom: 12px;
 }
 
@@ -71,12 +88,19 @@ figure.main-image {
  margin-bottom: 32px;
 }
 
-@media all and (min-width:768px) {
-  figure.section-image{
-    max-width: 320px;
-    float: right;
-    margin: -20px -62px 32px 20px;
-  }
+figure.section-image{
+  max-width: 320px;
+margin-bottom: 32px;
+}
+
+figure.section-image.odd {
+float: right;
+margin-left: 20px;
+}
+
+figure.section-image.even {
+float: left;
+margin-right: 20px;
 }
 
 p img{
@@ -87,16 +111,11 @@ p img{
 }
 
 nav ul{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
   list-style: none;
   padding-left: 0;
-}
-
-@media all and (main-width:376px){
-  nav ul{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-  }
 }
 
 nav ul li{
