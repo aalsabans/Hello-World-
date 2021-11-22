@@ -7,10 +7,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="finalstyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+     function darkMode(){
+       document.body.classList.toggle('dark-mode');
+     }
+    </script>
   </head>
   <body>
     <header>
+      <button onclick="darkMode()">Toggle dark mode</button>
       <div class="container">
+        <div id="message">Coffee etiquette is inhale its smell and let it caress your head cells ; )<button onclick="document.getElementById('message').classList.add('dismissed')">Dismiss</button></div>
         <h1 id="site-title">Dose Cafe</h1>
       </div>
      <nav>
@@ -46,6 +53,9 @@
  </main>
  <footer id="page-footer">
    <p>Copyright 2021</p>
+   <p>+966 562222411</p>
+   <p>info@dosecafeksa.com</p>
+   <p>instagram dosecafe_kas</p>
    <nav>
      <ul>
        <li><a target="_blank" href="https://www.google.com/maps/search/Dose+Cafe/@25.316149,47.1284597,7.96z?hl=en">location</a></li>
