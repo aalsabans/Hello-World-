@@ -84,7 +84,7 @@ figure img {
 figure.main-image {
  background: #b3793f;
  border-color: #886f56;
- color: #ffffff;
+ color: black;
  margin-bottom: 32px;
 }
 
@@ -95,7 +95,7 @@ float:right;
 margin-left: 20px;
 background: #b3793f;
 border-color: #886f56;
-color: #ffffff;
+color: black;
 }
 
 p img{
