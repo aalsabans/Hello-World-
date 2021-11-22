@@ -117,7 +117,7 @@ nav ul li{
 }
 
 nav ul li a {
-  color: #b3793f;
+  color: #886f56;
   text-decoration: none;
   padding: 12px;
   display: block;
@@ -128,13 +128,13 @@ nav ul li a {
 }
 
 header nav ul li a:hover{
-border-bottom: 3px solid #886f56;
+border-bottom: 3px solid #b3793f;
 padding-bottom: 9px;
 }
 
 header nav ul {
-  border-top: 1px solid #886f56;
-  border-bottom: 1px solid #886f56;
+  border-top: 1px solid #b3793f;
+  border-bottom: 1px solid #b3793f;
 }
 
 footer nav {
