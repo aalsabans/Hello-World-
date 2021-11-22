@@ -5,8 +5,8 @@ body {
 }
 
 body.dark-mode{
-  background: #010101;
-  color: #ffffff;
+  background:#010101;
+  color:#ffffff;
 }
 
 .container {
@@ -16,14 +16,14 @@ body.dark-mode{
 }
 
 #message{
-  background:PaleVioletRed;
-  border: 1px solid MediumVioletRed;
+  background:#b3793f;
+  border: 1px solid #886f56;
   padding: 20px 40px;
   margin: 12px 0;
   border-radius: 4px;
   text-align: center;
   opacity: 1;
-  transition: opacity.2s ease;
+  transition: opacity .2s ease;
 }
 
 #message.dismissed{
@@ -68,6 +68,11 @@ p{
   margin-bottom: 1.25em;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 figure {
   margin: 0;
   border:1px solid black;
@@ -76,8 +81,6 @@ figure {
 }
 
 figure img {
-  max-width: 100%;
-  height: auto;
   margin-bottom: 12px;
 }
 
@@ -88,29 +91,36 @@ figure.main-image {
  margin-bottom: 32px;
 }
 
-figure.section-image{
-max-width: 400px;
-margin-bottom: 32px;
-float:right;
-margin-left: 20px;
-background: #b3793f;
-border-color: #886f56;
-color: black;
+@media all and (min-width: 768px) {
+  figure.section-image{
+  max-width: 400px;
+  margin-bottom: 32px;
+  float:right;
+  margin-left: 20px;
+  background: #b3793f;
+  border-color: #886f56;
+  color: black;
+  }
 }
 
 p img{
  float: right;
- max- width: 60%;
- margin-lift: 20px;
- margin- bottom: 32px;
+ max-width: 60%;
+ margin-left: 20px;
+ margin-bottom: 32px;
 }
 
 nav ul{
-  display: flex;
-  justify-content: center;
-  gap: 30px;
   list-style: none;
   padding-left: 0;
+}
+
+@media all and (min-width:376px) {
+  nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
 }
 
 nav ul li{
@@ -142,7 +152,7 @@ footer nav {
 }
 
 footer nav ul li a {
-  color: #302b26;
+  color: black;
 }
 
 footer nav ul li a:hover {
